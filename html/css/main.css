@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:regular);
 
 h1 {
     font-weight: normal;
@@ -62,7 +62,7 @@ svg.menu.outer {
 }
 
 svg.menu > g > path {
-    fill: rgb(23 23 23 / 80%);
+    fill: rgba(0, 0, 0);
 }
 
 svg.menu > g.sector > path {
@@ -71,27 +71,49 @@ svg.menu > g.sector > path {
 
 svg.menu > g.sector > text,
 svg.menu > g.sector > use {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas neue', sans-serif;
     margin-top: 5px;
-    font-size: 2.8px;
-    letter-spacing: 0.2px;
+    font-size: 0.25rem;
+    letter-spacing: 0.4px;
     text-transform: uppercase;
     cursor: pointer;
+    font-weight: bold;
     fill: white;
 }
 
+svg.menu > g.sector:hover > text,
+svg.menu > g.sector:hover > use {
+    font-family: 'Bebas neue', sans-serif;
+    margin-top: 5px;
+    font-size: 0.25rem;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    fill: rgb(0, 0, 0);
+}
+
 svg.menu > g.sector:hover > path {
-    fill: #dc143c;
+    fill: rgb(255, 255, 255);
+
+}
+
+svg.menu > g.sector:hover > svg {
+    fill: rgb(0, 0, 0);
 
 }
 
 svg.menu > g.center:hover > circle {
-    fill:#dc143c;
+    fill:#000000;
+}
+
+svg.menu > g.center:hover > svg {
+    fill:#ffffff;
 }
 
 svg.menu > g.center > circle {
     cursor: pointer;
-    fill: rgb(23 23 23 / 80%);
+    fill: rgba(0, 0, 0);
 }
 
 svg.menu > g.center > text,

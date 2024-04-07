@@ -590,7 +590,7 @@ Config.JobInteractions = {
             shouldClose = true
         }, {
             id = 'takedriverlicense',
-            title = 'Revoke Drivers License',
+            title = 'Revoke License',
             icon = 'id-card',
             type = 'client',
             event = 'police:client:SeizeDriverLicense',

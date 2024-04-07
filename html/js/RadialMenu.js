@@ -528,6 +528,8 @@ RadialMenu.prototype.addIconSymbols = function () {
     var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     svg.setAttribute('class', 'icons');
 
+    svg.classList.add('svg-style');
+
     // return
     var returnSymbol = document.createElementNS('http://www.w3.org/2000/svg', 'symbol');
     returnSymbol.setAttribute('id', 'return');
